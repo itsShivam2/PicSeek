@@ -33,7 +33,7 @@ function fetchImages(page = 1) {
     })
     .catch((error) => console.error("Error:", error));
 }
-// fetchImages();
+fetchImages();
 
 const searchBtn = document.querySelector("#search-btn");
 searchBtn.addEventListener("click", fetchImages);
